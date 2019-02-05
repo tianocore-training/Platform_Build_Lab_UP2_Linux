@@ -30,4 +30,4 @@
 -->
 # Platform_Build_Lab_UP2_Linux
 Build EDK II Platform with Linux to build Apollo Lake UP Squared board
-To see the Slides goto https://gitpitch.com/Laurie0131/Platform_Build_Lab_UP2_Linux/master#/
+To see the Slides goto https://gitpitch.com/tianocore-training/Platform_Build_Lab_UP2_Linux/master#/

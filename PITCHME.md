@@ -1,7 +1,6 @@
 ---?image=assets/images/gitpitch-audience.jpg
 @title[Platform Build Win Lab]
 <br><br>
-<span style="font-size:0.75em" >This slide deck has moved to:  https://gitpitch.com/tianocore-training/Platform_Build_Lab_UP2_Linux/master#/</span>
 <br><br><br>
 ## <span class="gold"   >UEFI & EDK II Training</span>
 
