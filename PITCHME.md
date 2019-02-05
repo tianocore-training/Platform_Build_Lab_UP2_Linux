@@ -651,7 +651,7 @@ There is also this capability that is part of the .dsc but many developers have 
 <br>
 <br>
 <p align="left"><span style="font-size:0.85em">From Terminal Prompt enter:  &nbsp;&nbsp;</span><span style="font-size:0.6em"><font color="yellow">Note: <i> the Build will Pause</i></font></span></p>
-<pre>
+<pre class='bash'>
 ```
 
   bash$ cd ~/src/MV3/edk2-platforms
@@ -777,8 +777,8 @@ many will have "ifdef" statements in the major .dsc file in order to enable a fe
 <br>
 <br>
 <p align="left"><span style="font-size:0.85em">From Terminal Prompt enter:  &nbsp;&nbsp;</span></p>
-<pre>
-```bash
+<pre class='bash'>
+```
 
 bash$ . BuildBIOS.sh /UP /A Broxton Release
 ```
