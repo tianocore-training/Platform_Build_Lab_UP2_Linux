@@ -897,7 +897,7 @@ the platform setup is reached by typing F2 on a reboot
 
 <p style="line-height:80%"><span style="font-size:0.85em" >6.&nbsp;&nbsp;Boot into the UEFI Shell  then  type "FS0:"&nbsp;<br>7.&nbsp;&nbsp;Run update `.efi` utility with either BIN file </span> <span style="font-size:0.6em" >&lpar;<i>Note</i> the “TAB” Key <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;will fill out the command line for you &rpar;</span></p>
 
-```
+```bash
   FS0:\> FirmwareUpdateX64.efi UPBORA.X64_R_0071_01_GCC.bin
  
 ```
@@ -917,7 +917,7 @@ Note:
 6, Boot into the UEFI Shell  then  type “FS0:”
 7, Run update .efi utility with either BIN file  
 	(Note the “TAB” Key will fill out the command line for you )
-```
+```bash
 FS0:\> FirmwareUpdateX64.efi UPBORA.X64_R_0071_01_GCC.bin
  
 ```
