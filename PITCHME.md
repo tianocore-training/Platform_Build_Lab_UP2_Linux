@@ -361,11 +361,11 @@ Note:
 <p style="line-height:80%" align="left"><span style="font-size:0.9em" >Download the PlatformBuildLab_UP2_FW.zip from : </span><br> @fa[github gp-bullet-white] <span style="font-size:0.7em"><a href="https://github.com/tianocore-training/PlatformBuildLab_UP2_FW/archive/master.zip">github.com PlatformBuildLab_UP2_FW.zip</a></span></p>
 
 <span style="font-size:0.9em" >OR<br>Use `git clone` to download the PlatformBuildLab_UP2_FW<span>
-```
+```bash
 $ git clone https://github.com/tianocore-training/PlatformBuildLab_UP2_FW.git
 ```
 <span style="font-size:0.9em" >Directory PlatformBuildLab_UP2_FW will be created</span>
-```
+```bash
    FW 
     - PlatformBuildLab
 	   - MV3                    - UP Squared Source for the Labs
@@ -568,7 +568,7 @@ Note:
 <br>
 ### <p align="center"><span class="gold" >Steps to Build & Install Firmware</span></p>
 <ul style="list-style-type:none; line-height:0.9;">
-  <li><span style="font-size:0.9em">@size[1.125em](<font color="yellow"> &#10102;</font>)&nbsp; Open Terminal prompt & Cd to <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@size[.7em]( `$HOME/src/Max/edk2-platforms/Vlv2TbltDevicePkg`)</span></li>
+  <li><span style="font-size:0.9em">@size[1.125em](<font color="yellow"> &#10102;</font>)&nbsp; Open Terminal prompt & Cd to <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@size[.7em]( `$HOME/src/MV3/edk2-platforms`)</span></li>
   <li><span style="font-size:0.9em">@size[1.125em](<font color="yellow"> &#10103;</font>)&nbsp; Fix-up "chmod" bin executable files</span></li>
   <li><span style="font-size:0.9em">@size[1.125em](<font color="yellow"> &#10104;</font>)&nbsp; Invoke the build process script, `BuildBIOS`</span></li>
   <li><span style="font-size:0.9em">@size[1.125em](<font color="yellow"> &#10105;</font>)&nbsp; Locate build output (.BIN file for BIOS image)</span></li>
@@ -594,7 +594,7 @@ Slide says it all
 </span></p>
 <BR>
 
-```
+```bash
  
  bash$ cd ~src/src/MV3/edk2-platforms/BroxtonPlatformPkg/Common/Tools
 
@@ -652,7 +652,7 @@ There is also this capability that is part of the .dsc but many developers have 
 <br>
 <p align="left"><span style="font-size:0.85em">From Terminal Prompt enter:  &nbsp;&nbsp;</span><span style="font-size:0.6em"><font color="yellow">Note: <i> the Build will Pause</i></font></span></p>
 <pre>
-```
+```bash
 bash$ cd ~/src/MV3/edk2-platforms
 bash$ . BuildBIOS.sh /UP /A Broxton Debug
 
