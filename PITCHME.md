@@ -653,9 +653,8 @@ There is also this capability that is part of the .dsc but many developers have 
 <p align="left"><span style="font-size:0.85em">From Terminal Prompt enter:  &nbsp;&nbsp;</span><span style="font-size:0.6em"><font color="yellow">Note: <i> the Build will Pause</i></font></span></p>
 <pre class='bash'>
 ```
-
-  bash$ cd ~/src/MV3/edk2-platforms
-  bash$ . BuildBIOS.sh /UP /A Broxton Debug
+	bash$ cd ~/src/MV3/edk2-platforms
+	bash$ . BuildBIOS.sh /UP /A Broxton Debug
 
 ```
 </pre>
