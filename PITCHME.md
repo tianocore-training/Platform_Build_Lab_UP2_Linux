@@ -652,10 +652,10 @@ There is also this capability that is part of the .dsc but many developers have 
 <br>
 <p align="left"><span style="font-size:0.85em">From Terminal Prompt enter:  &nbsp;&nbsp;</span><span style="font-size:0.6em"><font color="yellow">Note: <i> the Build will Pause</i></font></span></p>
 <pre>
-```bash
+```
 
- bash$ cd ~/src/MV3/edk2-platforms
- bash$ . BuildBIOS.sh /UP /A Broxton Debug
+  bash$ cd ~/src/MV3/edk2-platforms
+  bash$ . BuildBIOS.sh /UP /A Broxton Debug
 
 ```
 </pre>
@@ -778,7 +778,8 @@ many will have "ifdef" statements in the major .dsc file in order to enable a fe
 <br>
 <p align="left"><span style="font-size:0.85em">From Terminal Prompt enter:  &nbsp;&nbsp;</span></p>
 <pre>
-```
+```bash
+
 bash$ . BuildBIOS.sh /UP /A Broxton Release
 ```
 </pre>
@@ -859,8 +860,8 @@ Note:
 <br>
 1.  <span style="font-size:0.85em" >&nbsp;&nbsp;Access UP Squared Binary image file from build folder</span>
   - <span style="font-size:0.5em" >`~src/MV3/edk2-platforms\Platform\BroxtonPlatformPkg\Common\Tools\Stitch`</span>
-  - <span style="font-size:0.65em" >DEBUG 	UPBOARDA.X64.D01.0071._GCC.bin</span>
-  - <span style="font-size:0.65em" >RELEASE	UPBOARDA.X64.R01.0071._GCC.bin</span>
+  - <span style="font-size:0.65em" >DEBUG 	UPBORA.X64_D_0071_01_GCC.bin</span>
+  - <span style="font-size:0.65em" >RELEASE	UPBORA.X64_R_0071_01_GCC.bin</span>
 2. <span style="font-size:0.85em" >&nbsp;&nbsp;Copy BIN files to a USB Thumb drive</span>
 3. <span style="font-size:0.85em" >&nbsp;&nbsp;Copy </span><span style="font-size:0.65em" >`FirmwareUpdateX64.efi`</span><span style="font-size:0.85em" > to a USB thumb &nbsp;&nbsp;drive from @size[.65em](`.../FW/PlatformBuildLab`)</span>
 4. <span style="font-size:0.85em" >&nbsp;&nbsp;Reset the UP Squared board and be prepared to type "F2" to enter System Setup</span>
